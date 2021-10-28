@@ -1,0 +1,425 @@
+html{
+    scroll-behavior: smooth;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url("../Photos/cluj.jpg") no-repeat center fixed;     
+    background-size: cover;
+}
+
+#bckg{
+    color: white;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#titleWrapper{
+    display: flex;
+    overflow: hidden;
+}
+
+#_title{
+    width: 97%;
+    height: auto;
+    font-family:Times, Times New Roman, serif;
+    font-size: 40px;
+    margin-left: 3%;
+    border-radius: 15px;
+}
+
+#contactButton{
+    margin-left: 3%;
+    padding: 4.5% 5% 4.5% 5%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #67cefadc;
+    opacity: 0.7;
+    border-radius: 6px;
+    border: 2px;
+    transition: 0.4s;
+}
+
+#contactButton:hover{
+    filter: brightness(110%);
+    transition: 0.4s;
+}
+
+#introduction{
+    padding:  30px 10px 30px;
+}
+
+#_topRappersTitle h2{
+    font-weight: normal;
+    text-align: center;
+}
+
+.rectangle{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.rectangle div#box1{
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    /*border-width: 0ch 3px 0 0;
+    border-style: inset inset inset inset;
+    border-color: aquamarine;*/
+    font-family: 'URW Chancery L', 'cursive';
+}
+.rectangle div#box2{
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.rectangle div#box{
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.original{
+    opacity:0.8;
+    transition: 0.3s;
+}
+.original:hover{
+    transition: 0.5s;
+    opacity: 0.9;
+    filter:brightness(110%)
+}
+
+#eminemPhoto{
+    height: 280px;
+    width: 540px;
+    background-color:linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5));
+}
+
+.textInput{
+    color: rgb(236, 232, 226);
+    background-color: transparent;
+    border: solid rgba(252, 232, 205, 0.486) 1px;
+}
+
+.textInput:hover{
+    background-color: rgba(252, 232, 205, 0.486);
+    opacity: 0.7;
+    color: aliceblue;
+    transition: 0.45s;
+}
+
+#_contactTitle{
+    font-family: "Copperplate Gothic Light", "Goudy Old Style";
+    padding: 1% 1% 1% 10%;
+}
+
+.contactContainer{
+    background-color: rgba(180, 180, 180, 0.123);
+    border-radius: 6px;
+    /*width: auto;*/
+    margin-left: 2%;
+    padding: 1% 2% 1% 2%;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+#msgBox{
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    width: 98%;
+    color:aliceblue;
+    background-color: transparent;
+    border: solid rgba(252, 232, 205, 0.486) 1px;
+    resize: none;
+    grid-row-end: auto;
+}
+
+#msgBox:hover{
+    background-color: rgba(252, 232, 205, 0.486);
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    transition: 0.4s;
+  }
+
+input[type=submit]{
+    background-color: rgba(220, 220, 220, 0.842);
+    color:rgb(0, 0, 0);
+    font-size: 2.07vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.8;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    height: 4.14vh;
+    width: 10.36vh;
+  }
+
+input[type=submit]:hover{
+    background-color: rgba(220, 220, 220, 0.842);
+    transition: 0.3s;
+    opacity: 1;
+    filter: brightness(150%)
+}
+
+.row{
+    width: 96%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.col0-25{
+    float: left;
+    width: 25%;
+}
+
+.col25-75{
+    float: left;
+    width: 75%;
+}
+
+.textInput{
+    box-sizing: border-box;
+    /* padding: 12px 12px 12px 0; */
+    color: aliceblue;
+    display: inline-block;    
+}
+
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.PersonalInfo{
+    background-color: aliceblue;
+    box-sizing: border-box;
+    width: 100%;
+    color:rgb(236, 236, 236);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    padding: 5px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.PersonalInfoContainer{
+    padding: 2%;
+    text-align: left;
+}
+
+#ubb_hlink{
+    color:rgba(47, 144, 255, 0.808);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;;
+}
+
+.PersonalInfoDetails{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#pozaPersonalDetails{
+    height: auto;
+    width: 60%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-top: 1.5px solid rgb(21, 31, 30);
+    border-right: 2.5px solid rgba(2, 5, 5, 0.438);
+    filter: brightness(130%);
+}
+
+.AccountsLogos{
+    height: auto;
+}
+
+#githubLogo{
+    height: auto;
+}
+
+#PersonalInfoDetailsTitle{
+    font-size: 30px;
+    color: burlywood;
+    font-family: Georgia, Papyrus;
+}
+
+#container-header-wrapper{
+    height: auto;
+    display: inline-block;
+    padding-bottom: 2%;
+}
+
+#homelogo{
+    padding-left: 1.2%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 3.108vh; width: auto;
+    /* height: auto; */
+}
+
+#header{
+    width: 90%;
+    margin-left: 5%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 99;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    background-color: #64656e;
+}
+
+#startOfThePage{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+#aboutMeSheet{
+    width: 75%;
+    /* width: 1280px; */
+    background-color: #2b2d42;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#aboutMeTitle{
+    text-align: center;   
+    padding: 3% 1% 1%;
+    font-size: 40px;
+    font-family: Apple Chancery, cursive;
+}
+
+#aboutMeContent{
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 2%;
+    display: flex;
+}
+
+#aboutMePhoto{
+    height: auto;
+    width: 100%;
+    border-radius: 1vh;
+    border-top: 3px solid #06d6a0;
+    border-right: 2.5px solid #06d6a0;
+    border-bottom: 3px solid #06d6a0;
+    border-left: 2.5px solid #06d6a0;
+    filter: brightness(130%);
+    animation-name: rainbow;
+}
+
+#aboutMeSheetLeft{
+    float: left;
+    width: 30%;
+    height: auto;
+}
+
+#aboutMeSheetRight{
+    float: left;
+    width: 68%;
+    margin-left: 2%;
+    border-left: 10px solid #06d6a0;
+    border-top: 10px solid #06d6a0;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 0 1% 0 2%;
+}
+
+#aboutMePersonalInformation{
+    font-size: 15px;
+    overflow: auto;
+    display: flex;
+    font-weight: bolder;
+    color:rgb(109, 109, 109);
+}
+
+.fancyLine{
+    height: 0.1vh;
+    width: 100%;
+    background-color: rgb(112, 109, 109);
+    filter: brightness(70%);
+    border-radius: 5px;
+}
+
+.limeText{
+    color: #288b6e;
+    font-style: italic;
+    filter: brightness(125%);
+}
+
+.FancyText{
+    color:rgb(131, 131, 131);
+    font-style: italic;
+    font-family: Palatino, URW Palladio L, serif;
+    filter: brightness(130%);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 20px;
+}
+
+#skillsContainer{
+    margin-top: 3%;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexBox{
+    float: left;
+    width: 100%;
+    margin: 0 1% 2% 1%;
+}
+
+#computerLogo{
+    width: 40%;
+    height: auto;
+}
+
+#programmerLogo{
+    width: 40%;
+    height: auto;
+}
+
+.ProgrammingLanguagesList{
+    list-style-type: square;
+    color:rgb(236, 236, 236);
+    font-size: 4.01vh;
+    padding-right: 2px;
+}
+
+#programmingLanguagesLogo{
+    width: 100%;
+    height: auto;
+    float: left;
+    object-fit: contain;
+}

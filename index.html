@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MySite</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="./javascript/script.js"></script>
+</head>
+<body id="bckg" onload="activateEffects()">
+    <a id="_startOfThePageAnchor"></a>
+    <div id="container-header-wrapper">
+        <div id="header" class="flexContainer">
+            
+                <div class="flexBox" style="margin: 0.5%;width: 90%;">
+                    <a href="#_startOfThePageAnchor"><img src="./Photos/homelogo.png" id="homelogo"></a>
+                </div>
+                <div class="flexBox" style="margin: 0.5%;width: 10%; display: flex; justify-content: space-between; background-color: #2b2d42; border-radius: 2.67vh;">
+                    <div class="flexBox" style="display: flex; height: 100%; margin: 0%;justify-content: center; align-items: center;"><a href="https://open.spotify.com/user/8c9ivehrfj2kak9w9734ubpa3?si=XSqzRR5lT9ycRcHhqYNkNg&utm_source=copy-link&dl_branch=1" target="_blank"><img src="./Photos/spotifylogo.png" style="height: 3.108vh; width: auto; margin: auto;"></a></div> 
+                    <div class="flexBox" style="display: flex; height: 100%; margin: 0%; justify-content: center; align-items: center;"><a href="https://github.com/andrei42O" target="_blank"><img src="./Photos/ghubLogo.png" style="height: 3.108vh; width: auto; margin: autp;"></a></div>
+                    <div class="flexBox" style="display: flex; height: 100%; margin: 0%; justify-content: center; align-items: center;"><a href="https://www.linkedin.com/in/andrei-aciob%C4%83ni%C8%9Bei-b81719208/" target="_blank"><img src="./Photos/linkedinlogo.png" style="height: 3.108vh; width: auto; margin: autp;"></a></div>
+                </div>
+        </div>
+    </div>  
+    <div class="flexContainer">
+        <div class="flexBox" style="width: 64%; overflow: auto;">
+            <pre id="_title">       Andrei Aciobăniței</pre>
+        </div>
+        <div class="flexBox" style="width: 27%;">
+            <button onclick="scrollToContact()" id="contactButton">CONTACT</button>
+        </div>
+    </div>
+    <div style="background-color: #8D99AE ; height: 10px; border-radius: 10px;"></div>
+    <div id = "introduction" style="font-size: 25px;">
+        <p style="font-family: OCR A Std, monospace; font-weight: 450;">Hello dear visitor :),<br><br>My name is Andrei Aciobăniței and this is my resume website.<br>I invite you to know me, please seat comfy and do check my work. </p>
+    </div>
+    <div id="aboutMeSheet">
+        <p id="aboutMeTitle">ABOUT ME</p>
+        <div id="aboutMeContent">
+            <div id="aboutMeSheetLeft">
+                <img src="./Photos/pozik.jpg" id="aboutMePhoto">
+            </div>
+            <div id="aboutMeSheetRight">
+                <pre id="aboutMePersonalInformation"><div class="limeText">19 years</div> / <div class="limeText">Occupation: Student</div> / <div class="limeText">Botosani - Cluj</div></pre>
+                <!-- <div class="fancyLine"></div> -->
+                <p class="FancyText"> Hardworking, creative and dedicated full-stack developer. 
+                    Currently studying for my bachelor's degree in <br>"Computer Science" at
+                    "<a href="http://www.cs.ubbcluj.ro/" style="color:aqua; text-decoration: underline;" target="_blank">Babeș-Bolyai Univeristy</a>" in Cluj-Napoca.<br>
+                    <br>
+                    I'm a communicative, rational and a team-player person. I like to learn something new everyday and sharpen my skills. 
+                    As a passion, and maybe a future hobby, i love everything about cars. In my free time i usually work-out, grab a cup of coffe or 
+                    play some sports with my friends and accumulate new skills which i will use in near future.
+                    <br><br>
+                    Former Olympic at Informatics, i was the 2'nd at the city's olympiad in my last two years of highschool. Usually i was filling my time by solving 
+                    a lot of problems which required me to learn different methods to approach them. All in all i'd say that those helped me in my 
+                    in the college and will surely help me in my future jobs.
+                </p>
+                <div class="fancyLine"></div>
+                <div id="skillsContainer">
+                    <div class="flexContainer">
+                        <div class="flexBox">
+                            <img src="./Photos/computerLogo.png" id="computerLogo">
+                            <h1 style="font-size: 2.5vh;">Developement</h1>
+                            <p class="FancyText"> 
+                                Building full custom applications and websites based 
+                                on the interface and technical description.  
+                            </p>
+                        </div>
+                        <div class="flexBox">
+                            <img src="./Photos/programmerLogo.png" id="programmerLogo">
+                            <h1 style="font-size: 2.5vh;">Knowledge</h1>
+                            <p class="FancyText">Advanced OOP priciples, clean code writer, 
+                                optimal handle of memmory and resources.</p>
+                        </div>
+                    </div>
+                    <div class="flexContainer">
+                        <div class="flexBox" style="width: 30%; display: flex;">
+                            <img src="./Photos/programmingLanguagesLogo.png" id="programmingLanguagesLogo">
+                        </div>
+                        <div class="flexBox" style="width: 70%;">
+                            <h2 style="text-align: center; font-size: 3vh;" >
+                                Programming languages record
+                            </h2>
+                            <div class="flexContainer">
+                                <div class="flexBox">
+                                    <ul class="ProgrammingLanguagesList" style="text-align: center;">
+                                        <li>Python</li>
+                                        <li>C/C++</li>
+                                        <li>NASM x86</li>
+                                    </ul>
+                                </div>
+                                <div class="flexBox">
+                                    <ul class="ProgrammingLanguagesList" style="text-align: center;">
+                                        <li>JavaScript</li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br>
+    <div class="rectangle" style="float: right;">
+        <!-- <div class="box">
+            <a href="https://github.com/andrei42O" target="_blank"><img src="./Photos/githublogo.png" id="githubLogo"></a>
+        </div>
+        <div class="box">
+            <a href="https://open.spotify.com/user/8c9ivehrfj2kak9w9734ubpa3?si=XSqzRR5lT9ycRcHhqYNkNg&utm_source=copy-link&dl_branch=1" target="_blank"><img src="./Photos/spotifylogo.png" width="200px" class="AccountsLogos"></a>
+        </div>
+        <div class="box">
+            <a href="https://www.linkedin.com/in/andrei-aciob%C4%83ni%C8%9Bei-b81719208/" target="_blank"><img src="./Photos/linkedinlogo.png" width="200px" class="AccountsLogos"></a>
+        </div>   -->
+        <a id="contactAnchor">
+            <div class="contactContainer">
+                <h1 id="_contactTitle">CONTACT</h1>
+                <form onsubmit="validateFields()">
+                    <!-- Input labels must be in a table for the esthetics -->
+                    <div class="row">
+                        <div class="col0-25">
+                            <label for="fname">First name: </label>
+                        </div>
+                        <div class="col25-75">
+                            <input type="text" class="textInput" id="firstNameInput" name="fname" placeholder="Name..." onfocus="firstNameClear()" onblur="firstNameBlur()"><br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col0-25">
+                            <label for="lname" class="inputLabelDesign">Last Name: </label>
+                        </div>
+                        <div class="col25-75">
+                            <input type="text" class="textInput" id="lastNameInput" name="lname" placeholder="Last Name..." onfocus="lastNameClear()" onblur="lastNameBlur()"><br>
+                        </div>  
+                    </div>
+                    <div class="row">
+                        <div class="col0-25">
+                            <label for="emailInput">Email:</label><br>
+                        </div>
+                        <div class="col25-75">
+                            <input type="text" name="mail" class="textInput" id="emailInput" placeholder="xyz@mail.com" onfocus="emailClear()" onblur="emailBlur()"><br>
+                        </div>
+                    </div>  
+                    <div class="row">
+                        <div class="col0-25">
+                                <label for="msgInput">Mesage:</label><br>
+                        </div>  
+                        <textarea rows="5" cols="80" maxlength="630" id="msgBox" name="msgInput" placeholder="Message... Hi :)" onfocus="messageClear()" onblur="messageBlur()"></textarea>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </a>
+    </div>
+</body>
+</html>
