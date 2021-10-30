@@ -114,3 +114,7 @@ function activateEffects(){
     setInterval("dynamicallyRgbBar(\"header\");", 2000);
     setInterval("rgbBorders();", 500);
 }
+
+function scrollToTheTop(){
+    document.getElementById("_startOfThePageAnchor").scrollIntoView();
+}
